@@ -16,11 +16,11 @@ def adjust_gamma(image, gamma=1.0):
     return cv2.LUT(image, table)
 
 
-file_path = "/Users/claireliu/PycharmProjects/firstPythonDome001/pexels-photo-1097456.jpeg"
+file_path = "../ImageSet/pexels-photo-1097456.jpeg"
 
 img_dark = cv2.imread(file_path)
 
-file_path2 = "/Users/claireliu/PycharmProjects/firstPythonDome001/lena.png"
+file_path2 = "../ImageSet/lenna.jpg"
 
 img = cv2.imread(file_path2)
 cv2.imshow('img', img)

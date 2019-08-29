@@ -62,7 +62,7 @@ def medianBlur(img, kernel, padding_way):
 
 def main():
     # read img
-    img = cv2.imread("./2.png")
+    img = cv2.imread("../ImageSet/2.png")
 
     # myself = medianBlur(img, 5, 'REPLICA')
     myself = medianBlur(img, 5, 'ZERO')

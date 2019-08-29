@@ -3,7 +3,7 @@ import random
 
 from matplotlib import pyplot as plt
 
-file_path = "/Users/claireliu/PycharmProjects/firstPythonDome001/lena.png"
+file_path = "../ImageSet/lenna.jpg"
 
 img_gray = cv2.imread(file_path, 0)
 # cv2.imshow("img", img_gray)

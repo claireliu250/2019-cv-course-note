@@ -6,7 +6,7 @@ import numpy as np
 # 作业要求：Please combine image crop, color shift, rotation and perspective transform together to complete a data augmentation script.
 #    Your code need to be completed in Python/C++ in .py or .cpp file with comments and readme file to indicate how to use.
 
-file_path = "/Users/claireliu/PycharmProjects/firstPythonDome001/lena.png"
+file_path = "../ImageSet/lena.png"
 
 img = cv2.imread(file_path)
 
